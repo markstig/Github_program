@@ -1,4 +1,4 @@
 # prog_study
-Test_Repository
+This repository will contain all python codes which I have learned an practiced.
 
-## This is a modify test from windows system.
+## Automate Boring Stuffs
