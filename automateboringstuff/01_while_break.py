@@ -1,8 +1,8 @@
 # Ask to enter a name, if enter the correct name, break the program.
 
 while True:
-    name = input('Please enter your name: ')
-    if name == 'Mark':
+    Name = input('Please enter your name: ')
+    if Name == 'Mark':
         break
 
 print('Thank you, you have entered your name.')
