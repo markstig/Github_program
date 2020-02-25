@@ -19,5 +19,5 @@ print(doubleVowelRegex.findall('Robocop eats baby food'))
 
 # Negative Character Classes
 
-consonatsRegex = re.compile(r'[^aeiouAEIOU]')
+consonatsRegex = re.compile(r'[^aeiouAEIOU]') # This means not match these
 print(consonatsRegex.findall('Robocop eats baby food.'))
