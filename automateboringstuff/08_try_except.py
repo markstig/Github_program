@@ -24,4 +24,4 @@ while True:
     except ZeroDivisonError:
         print('The denominator should not be 0')
     except ValueError:
-        print('The input should be a number.)
+        print('The input should be a number.')
