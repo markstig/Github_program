@@ -19,3 +19,19 @@ list1 = {}
 list1.setdefault('a', 1)
 list1.setdefault('a', 2)
 print(list1)
+
+
+# The second version
+import pyperclip, pprint
+
+message = pyperclip.paste()
+print(message)
+
+counta = {}
+
+for i in message.upper():
+    if i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        counta.setdefault(i, 0)
+        counta[i] = counta[i] + 1
+
+pprint.pprint(counta)
