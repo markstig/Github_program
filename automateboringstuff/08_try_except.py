@@ -11,7 +11,7 @@ while True:
     except ValueError:
         print('Error: You did not enter a number')
 
-# The second verson
+# The second verson~
 while True:
     try:
         enumerator = int(input('Please enter the enumerator: ')
