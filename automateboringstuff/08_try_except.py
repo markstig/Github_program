@@ -10,3 +10,4 @@ while True:
         print('Error: You tried to divided by zero')
     except ValueError:
         print('Error: You did not enter a number')
+
