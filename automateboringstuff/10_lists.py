@@ -29,7 +29,11 @@ print(spam)
 
 # String and List Similarities
 print(len('Hello'))
-print(len([1, 2, 3]))
+print(len([1, 2, 3])) # can not use len here directly
+
+spam1 = [1, 2, 3]
+print(len(spam1))
+
 print([1, 2, 3] + [4, 5.6])
 print([1, 2, 3] * 3)
 
