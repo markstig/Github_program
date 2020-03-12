@@ -30,3 +30,8 @@ spam.sort()
 print(spam)
 spam.sort(key=str.lower)
 print(spam)
+
+a = 'Mark'
+a.lower()
+print(a)  # This will not change the a string
+print(a.lower()). # This will change the a string
