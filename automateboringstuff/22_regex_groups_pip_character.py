@@ -18,3 +18,11 @@ print(mo.group())
 batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 mo = batRegex.search('Batmobile and batman is quite good.')
 print(mo.group())
+
+# case3
+import pyperclip, pprint, re
+message = pyperclip.paste()
+sampleRegex = re.compile(r'((B|b)at(man|woman|mobile))')
+print(sampleRegex.findall(message))
+for i in sampleRegex.findall(message):
+    print(i[0])
