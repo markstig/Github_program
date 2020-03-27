@@ -1,8 +1,13 @@
 # Ask to enter a name, if enter the correct name, break the program.
 
 while True:
-    Name = input('Please enter your name: ')
-    if Name == 'Mark':
+    print('Who are you?')
+    name = input()
+    if name != 'Mark':
+        continue
+    print('Hello, Mark, What is the password? (It is a fish.)')
+    password = input()
+    if password == 'swordfish':
         break
 
-print('Thank you, you have entered your name.')
+print('Access granted.')
