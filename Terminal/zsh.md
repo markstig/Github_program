@@ -1,7 +1,16 @@
 ### sleep and say
 sleep 600 && say '10 minuts is over'
 
+### Change the sound
+
+use tab after
+
+> say -v
+
+> say -v ting-ting hello world!
+
 ### calendar and date
+
 cal
 cal 2020
 date
