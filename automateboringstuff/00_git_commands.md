@@ -1,8 +1,11 @@
-# git add .
-This will update all the new changes 
+# Common git commands
 
-# git commit -m 'this is the comment on this change'
+## git add . (here it means git add all)
 
-# git push
+This will update all the new changes
+
+## git commit -m 'this is the comment on this change'
+
+## git push
+
 This will push all the local changes to online
-
