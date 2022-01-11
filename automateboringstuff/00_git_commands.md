@@ -7,5 +7,3 @@ This will update all the new changes
 ## git commit -m 'this is the comment on this change'
 
 ## git push
-
-This is a test on 20220111~
